@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarcoolStoreHub | Rebelión Cyber</title>
+    <link rel="stylesheet" href="/css/cyberpunk.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+    <header class="navbar flex items-center">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <h1 class="text-2xl font-black text-white tracking-widest glitch" data-text="MARCOOLSTOREHUB">MARCOOLSTOREHUB</h1>
+            <nav>
+                <ul class="flex space-x-10">
+                    <li><a href="/" class="nav-link">Lanzamientos</a></li>
+                    <li><a href="#" class="nav-link">Cyber</a></li>
+                    <li><a href="#" class="nav-link text-pink glow-pink">Neón</a></li>
+                    <li><a href="#" class="nav-link">Volt</a></li>
+                    <li><a href="#" class="nav-link">Flujo</a></li>
+                </ul>
+            </nav>
+            <div class="flex items-center space-x-6 text-white text-sm">
+                <button class="hover:text-cyan transition-all">BUSCAR</button>
+                <button class="hover:text-cyan transition-all">PERFIL</button>
+                <button class="hover:text-cyan transition-all relative">
+                    CARRITO
+                    <span class="absolute -top-2 -right-2 bg-pink text-[8px] px-1 rounded-full">3</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 z-10">
+                <div class="mb-4 inline-block bg-pink text-white text-[10px] uppercase font-bold px-3 py-1 tracking-widest">
+                    Nuevo Lanzamiento 2026
+                </div>
+                <h2 class="hero-title glitch" data-text="MODA CYBER">MODA<br>CYBER</h2>
+                <p class="text-text-dim text-lg mb-8 max-w-md">
+                    Experimenta el futuro de la moda con nuestra colección de neón de vanguardia. Donde la tecnología se une al estilo en perfecta armonía.
+                </p>
+                <div class="flex space-x-4">
+                    <button class="btn-add-cart !w-auto px-10">ENTRAR AL CIBERESPACIO</button>
+                    <button class="border border-cyan text-cyan font-cyber text-[10px] px-10 py-3 hover:bg-cyan hover:text-black transition-all">VER AVANCE</button>
+                </div>
+                <div class="flex mt-12 space-x-8">
+                    <div>
+                        <div class="font-cyber text-xl text-white">2021</div>
+                        <div class="text-[8px] text-text-dim uppercase tracking-widest">Colecciones</div>
+                    </div>
+                    <div>
+                        <div class="font-cyber text-xl text-white text-cyan glow-cyan">100K+</div>
+                        <div class="text-[8px] text-text-dim uppercase tracking-widest">Ciber Rebeldes</div>
+                    </div>
+                    <div>
+                        <div class="font-cyber text-xl text-white">INF</div>
+                        <div class="text-[8px] text-text-dim uppercase tracking-widest">Posibilidades</div>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2 mt-12 md:mt-0 relative">
+                <div class="relative z-10 border-8 border-cyan shadow-[0_0_50px_rgba(0,255,255,0.3)]">
+                    <img src="/uploads/hero.png" alt="Moda Cyber Hero" class="w-full h-auto grayscale hover:grayscale-0 transition-all duration-700">
+                    <div class="absolute -top-4 -right-4 bg-yellow-400 text-black p-2 font-bold text-xs ring-4 ring-black">4.9 CALIFICACIÓN</div>
+                </div>
+                <div class="absolute -top-10 -left-10 w-32 h-32 border-2 border-pink opacity-50 rotate-12 animate-pulse"></div>
+                <div class="absolute bottom-10 -right-10 w-24 h-24 bg-cyan opacity-20 -rotate-45"></div>
+            </div>
+        </section>
+
+        <section class="stats-bar">
+            <div class="container mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-12">
+                <div class="stat-item">
+                    <span class="stat-icon text-yellow-400">V</span>
+                    <div class="stat-value text-pink">10K+</div>
+                    <div class="stat-label">Ciber Rebeldes</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-icon text-cyan">*</span>
+                    <div class="stat-value text-cyan">500+</div>
+                    <div class="stat-label">Productos Neón</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-icon text-red-500">>></span>
+                    <div class="stat-value text-yellow-400">24/7</div>
+                    <div class="stat-label">Soporte Ciber</div>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-icon text-purple-500">+</span>
+                    <div class="stat-value text-purple-500">INF</div>
+                    <div class="stat-label">Posibilidades</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-24 container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-6xl text-pink glow-pink mb-4">COLECCIÓN CIBER</h2>
+                <p class="text-[10px] uppercase tracking-[0.5em] text-text-dim">Experimenta el futuro de la moda con nuestra colección de neón de vanguardia</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <div class="cyber-card group">
+                    <div class="card-tag bg-pink text-white">-25%</div>
+                    <div class="product-img-wrapper">
+                        <img src="/uploads/jacket.png" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all">
+                    </div>
+                    <div class="p-6">
+                        <div class="text-[10px] text-cyan uppercase font-bold mb-2">Ropa Ciber</div>
+                        <h3 class="text-xl text-white mb-4">CHAQUETA PULSO NEÓN</h3>
+                        <div class="flex items-center space-x-1 mb-4 text-xs text-yellow-400">
+                            ****<span class="text-gray-600">*</span> <span class="text-text-dim ml-2">(234)</span>
+                        </div>
+                        <div class="flex space-x-2 mb-6">
+                            <div class="w-4 h-4 bg-pink"></div>
+                            <div class="w-4 h-4 bg-cyan"></div>
+                            <div class="w-4 h-4 bg-yellow-400"></div>
+                        </div>
+                        <div class="flex justify-between items-center mb-6">
+                            <div class="text-2xl text-cyan font-bold">$299 <span class="text-sm text-text-dim line-through ml-2">$399</span></div>
+                            <span class="text-pink animate-pulse">V</span>
+                        </div>
+                        <button class="btn-add-cart">AÑADIR AL CARRITO</button>
+                    </div>
+                </div>
+
+                <div class="cyber-card group">
+                    <div class="card-tag bg-lime-500 text-black">Nuevo</div>
+                    <div class="product-img-wrapper">
+                        <img src="/uploads/hoodie.png" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all">
+                    </div>
+                    <div class="p-6">
+                        <div class="text-[10px] text-cyan uppercase font-bold mb-2">Colección Volt</div>
+                        <h3 class="text-xl text-white mb-4">SUDADERA ELÉCTRICA</h3>
+                        <div class="flex items-center space-x-1 mb-4 text-xs text-yellow-400">
+                            ****<span class="text-gray-600">*</span> <span class="text-text-dim ml-2">(156)</span>
+                        </div>
+                        <div class="flex space-x-2 mb-6">
+                            <div class="w-4 h-4 bg-lime-500"></div>
+                            <div class="w-4 h-4 bg-pink"></div>
+                            <div class="w-4 h-4 bg-blue-600"></div>
+                        </div>
+                        <div class="flex justify-between items-center mb-6">
+                            <div class="text-2xl text-cyan font-bold">$189</div>
+                            <span class="text-pink">V</span>
+                        </div>
+                        <button class="btn-add-cart !from-cyan !to-blue-600">AÑADIR AL CARRITO</button>
+                    </div>
+                </div>
+
+                <div class="cyber-card featured group shadow-[0_0_30px_rgba(255,0,127,0.2)]">
+                    <div class="product-img-wrapper relative">
+                        <img src="/uploads/mesh.png" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all">
+                        <div class="absolute inset-0 border-2 border-pink/30 group-hover:border-pink transition-all"></div>
+                        <div class="absolute inset-0 bg-[linear-gradient(rgba(0,255,255,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(0,255,255,0.05)_1px,transparent_1px)] bg-[size:10px_10px]"></div>
+                    </div>
+                    <div class="p-6 bg-dark-surface">
+                        <div class="text-[10px] text-cyan uppercase font-bold mb-2">Ropa del Futuro</div>
+                        <h3 class="text-xl text-white mb-4">TOP DE MALLA CIBER</h3>
+                        <div class="flex items-center space-x-1 mb-4 text-xs text-yellow-400">
+                            ****<span class="text-yellow-400">*</span> <span class="text-text-dim ml-2">(89)</span>
+                        </div>
+                        <div class="flex space-x-2 mb-6">
+                            <div class="w-4 h-4 bg-purple-600"></div>
+                            <div class="w-4 h-4 bg-cyan"></div>
+                            <div class="w-4 h-4 bg-orange-600"></div>
+                        </div>
+                        <div class="flex justify-between items-center mb-6">
+                            <div class="text-2xl text-cyan font-bold">$159</div>
+                            <span class="text-pink">V</span>
+                        </div>
+                        <button class="btn-add-cart">AÑADIR AL CARRITO</button>
+                    </div>
+                    <div class="absolute top-4 right-4 flex flex-col space-y-2 opacity-0 group-hover:opacity-100 transition-all">
+                        <button class="w-8 h-8 bg-black/80 border border-white/20 text-white text-[10px]">&gt;</button>
+                        <button class="w-8 h-8 bg-black/80 border border-white/20 text-white text-[10px]">+</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container mx-auto px-6">
+                <h2 class="text-6xl text-white glow-white mb-8 glitch" data-text="ÚNETE A LA REVOLUCIÓN CIBER">ÚNETE A LA REVOLUCIÓN<br>CIBER</h2>
+                <p class="text-text-dim text-sm uppercase tracking-[0.3em] mb-12 max-w-xl mx-auto">
+                    Sé el primero en acceder a nuevos lanzamientos, ropa tecnológica exclusiva y experiencias cibernéticas
+                </p>
+                <form class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4">
+                    <input type="email" placeholder="INGRESA TU EMAIL" class="cyber-input">
+                    <button type="submit" class="bg-pink text-white font-cyber px-12 py-4 hover:shadow-[0_0_20px_#FF007F] transition-all">SUSCRIBIRSE</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-12 border-t border-white/10 text-center">
+        <p class="text-[10px] text-text-dim tracking-[0.5em]">© 2026 MARCOOLSTOREHUB // REBELIÓN DIGITAL // NEO-TOKIO</p>
+    </footer>
+
+</body>
+</html>
